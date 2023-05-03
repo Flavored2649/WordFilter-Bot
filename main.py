@@ -91,5 +91,5 @@ async def on_message(message):
 
             break
 
-TOKEN = ''
+TOKEN = '' # your token here 
 client.run(TOKEN)
