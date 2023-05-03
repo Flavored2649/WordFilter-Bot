@@ -11,10 +11,10 @@ with open("bad_words.json") as file:
     insults = data["bad_words"]
 
 db = mysql.connector.connect(
-    host="sql7.freemysqlhosting.net",
-    user="sql7614799",
-    password="WZ2QeKXsnY",
-    database="sql7614799",
+    host="",
+    user="",
+    password="",
+    database="",
     port=3306
 )
 
