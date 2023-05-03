@@ -56,7 +56,7 @@ async def on_message(message):
                 color=discord.Color.red()
             )
 
-            moderation_channel = client.get_channel(1040886998195519540)
+            moderation_channel = client.get_channel() # Your channel ID for logging here
 
             if warnings_count >= 3:
                 embed.add_field(name="Ban", value="You have been banned due to receiving 3 warnings for offensive language.")
